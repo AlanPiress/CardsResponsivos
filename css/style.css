@@ -68,3 +68,19 @@ main.cards section.card span{
     margin-bottom: 16px;
 }
 
+main.cards section.card button{
+    border: none;
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    background: #00ac69;
+    cursor: pointer;
+    font-size: 90%;
+}
+
+main.cards section.card button:hover{
+    background: #009b5f;
+}
+
