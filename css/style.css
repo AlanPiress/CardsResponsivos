@@ -105,4 +105,25 @@ main.cards section.card:hover{
     main.cards{
         flex-direction: column;
     }
+    main.cards section.card{
+        margin-left: 0;
+        margin-bottom: 32px;       
+    }
+
+    main.cards section.card:last-child{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .titulo{
+        padding: 42px;
+        margin-top: 0;
+    }
+
+    main.cards{
+        padding: 5px;
+    }
+
 }
