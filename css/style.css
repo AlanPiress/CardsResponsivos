@@ -27,3 +27,44 @@ main.cards{
     align-items: center;
 }
 
+main.cards section.card .icon{
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img{
+    width: 100%;
+}
+
+main.cards section.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 32px;
+    padding: 32px;
+    border-radius: 10px;
+    max-height: 468px;
+    max-width: 280px;
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
+
+main.cards section.card h3{
+    font-size: 100%;
+
+    margin-bottom: 10px;
+}
+
+main.cards section.card span{
+    max-width: 240px;
+    font-weight: 600;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
