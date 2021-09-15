@@ -5,3 +5,17 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    background-image: url(../img/bkg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #272424;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
